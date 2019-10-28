@@ -17,6 +17,8 @@ public class SellerTermsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_seller_terms);
 
+        //comment
+
         seller_terms = (TextView)findViewById(R.id.seller_terms);
         accept_btn2 = (TextView)findViewById(R.id.accept_btn2);
         check = (CheckBox) findViewById(R.id.check);
