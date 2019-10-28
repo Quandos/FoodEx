@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/personaldetailes_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="Personal Detailes"
+            android:textSize="15dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginLeft="160dp"/>
+        
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="200dp" />
+        <EditText
+            android:id="@+id/firstname_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="First Name"
+            />
+
+        <EditText
+            android:id="@+id/lastname_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Last Name"
+            />
+
+        <EditText
+            android:id="@+id/email_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Email"
+            />
+        
+        <EditText
+            android:id="@+id/passwordconfirm_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Password Confirm"
+            />
+
+        <EditText
+            android:id="@+id/confirmpassord_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Condirm Password"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        
+        <Button
+            android:id="@+id/next_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/singup_input"
+            android:layout_width="113dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="140dp"
+            android:layout_marginRight="10dp"
+            android:text="SingUp"
+            android:textSize="30dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="140dp" />
+
+
+        <Button
+            android:id="@+id/singupasretailers_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sing up as Retailers"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:id="@+id/or_input"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:text="or"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/sinupasuser_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="30dp"
+            android:text="Sing up as User"
+            android:textSize="25dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_margin="10dp">
+
+            <EditText
+                android:id="@+id/firstname_input"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="First Name" />
+
+            <EditText
+                android:id="@+id/lastname_input"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:text="Last name" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/email_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Email" />
+
+
+            <EditText
+                android:id="@+id/password_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Password" />
+
+
+
+            <EditText
+                android:id="@+id/confirmpassord_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Confirm Passord" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+
+            <Button
+                android:id="@+id/confirm_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Confirm"
+                android:layout_margin="10dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
