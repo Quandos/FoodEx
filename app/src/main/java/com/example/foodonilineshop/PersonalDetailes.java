@@ -37,8 +37,8 @@ public class PersonalDetailes extends AppCompatActivity {
                @Override
                public void onClick(View view) {
 
-                   Intent intent = new Intent(PersonalDetailes.this, StoreDetailes.class);
-                   startActivity(intent);
+//                   Intent intent = new Intent(PersonalDetailes.this, StoreDetailes.class);
+//                   startActivity(intent);
                }
            });
     }
