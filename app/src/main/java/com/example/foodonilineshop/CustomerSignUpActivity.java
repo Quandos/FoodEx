@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 public class CustomerSignUpActivity extends AppCompatActivity {
 
-    public static int  Terms_And_Condition_RESULT = 1;
+    public static int  Terms_And_Condition_RESULT = 3;
     TextView personaldetails , csingup_terms , city_input;
     EditText fname_input , lastname_input , email_input , passwordc_input , confirmpassword_input;
     Button submit_btn , cancel_btn1;
@@ -72,7 +72,7 @@ public class CustomerSignUpActivity extends AppCompatActivity {
 
             }
         });
-        Spinner mySpinner = (Spinner) findViewById(R.id.mySpineer);
+        Spinner mySpinner = (Spinner) findViewById(R.id.city);
         mySpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
