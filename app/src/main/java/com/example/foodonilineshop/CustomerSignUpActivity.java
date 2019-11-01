@@ -14,9 +14,9 @@ import android.widget.Toast;
 
 public class CustomerSignUpActivity extends AppCompatActivity {
 
-    public static int  Terms_And_Condition_RESULT = 3;
-    TextView personaldetails , csingup_terms , city_input;
-    EditText fname_input , lastname_input , email_input , passwordc_input , confirmpassword_input;
+    public static int  Terms_And_Condition_RESULT = 1;
+    TextView personaldetails , csingup_terms , city_input ;
+    EditText fname_input , lastname_input , email_input , passwordc_input , confirmpassword_input , phone_number;
     Button submit_btn , cancel_btn1;
 
 
@@ -28,6 +28,7 @@ public class CustomerSignUpActivity extends AppCompatActivity {
         personaldetails = (TextView) findViewById(R.id.personaldetails);
         csingup_terms = (TextView) findViewById(R.id.csingup_terms);
         city_input = (TextView) findViewById(R.id.city_input);
+        phone_number = (EditText) findViewById(R.id.phone_number);
         fname_input = (EditText) findViewById(R.id.fname_input);
         lastname_input = (EditText) findViewById(R.id.lastname_input);
         email_input = (EditText) findViewById(R.id.email_input);
@@ -59,7 +60,7 @@ public class CustomerSignUpActivity extends AppCompatActivity {
                     customer.setLname(lastname_input.getText().toString());
                     customer.setEmail(email_input.getText().toString());
                     customer.setCity(city_input.getText().toString());
-                    customer.setPhoneNumber(""); //TODO add phone number on the page
+                    customer.setPhoneNumber(phone_number.getText().toString());
 
                 }else{
                     Toast.makeText(CustomerSignUpActivity.this,
@@ -111,8 +112,11 @@ public class CustomerSignUpActivity extends AppCompatActivity {
         valid = false;
             email_input.setError("Required field.");
     }
-
-
+        String phone = phone_number.getText().toString();
+        if (phone.trim().length() == 0) {
+            valid = false;
+            phone_number.setError("Required field.");
+        }
     String password = passwordc_input.getText().toString();
         if (password.trim().length() == 0) {
         valid = false;
