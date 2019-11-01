@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 public class CustomerSignUpActivity extends AppCompatActivity {
 
-    public static int  Terms_And_Condition_RESULT = 2;
+    public static int  Terms_And_Condition_RESULT = 1;
     TextView personaldetails , csingup_terms , city_input ;
     EditText fname_input , lastname_input , email_input , passwordc_input , confirmpassword_input , phone_number;
     Button submit_btn , cancel_btn1;
