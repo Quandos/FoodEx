@@ -1,16 +1,15 @@
 package com.example.foodonilineshop;
 
 public class Seller {
-
-
     private String fname;
     private String lname;
     private String email;
-    private String phoneNumber;
+    private String customerNumber;
     private String city;
     private String username;
     private String storeName;
     private String storeAddress;
+    private String storehours;
 
     public String getFname() {
         return fname;
@@ -36,12 +35,12 @@ public class Seller {
         this.email = email;
     }
 
-    public String getPhoneNumber() {
-        return phoneNumber;
+    public String getCustomerNumber() {
+        return customerNumber;
     }
 
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
+    public void setCustomerNumber(String customerNumber) {
+        this.customerNumber = customerNumber;
     }
 
     public String getCity() {
@@ -76,13 +75,13 @@ public class Seller {
         this.storeAddress = storeAddress;
     }
 
-    public String getStoreId() {
-        return storeId;
+    public String getStorehours() {
+        return storehours;
     }
 
-    public void setStoreId(String storeId) {
-        this.storeId = storeId;
+    public void setStorehours(String storehours) {
+        this.storehours = storehours;
     }
 
-    private String storeId;
+
 }

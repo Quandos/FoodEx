@@ -26,7 +26,7 @@
         app:layout_constraintTop_toBottomOf="@id/seller_information"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_margin="20dp">
+        android:layout_margin="10dp">
 
 
         <EditText
@@ -45,7 +45,7 @@
     app:layout_constraintTop_toBottomOf="@id/fstoreLayout"
     app:layout_constraintLeft_toLeftOf="parent"
     app:layout_constraintRight_toRightOf="parent"
-    android:layout_margin="20dp">
+    android:layout_margin="10dp">
 
     <EditText
         android:id="@+id/fstore_input"
@@ -58,11 +58,28 @@
     <android.support.design.widget.TextInputLayout
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:id="@+id/addressLayout"
+        android:id="@+id/unameLayout"
         app:layout_constraintTop_toBottomOf="@id/fstore_idLayout"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_margin="20dp">
+        android:layout_margin="10dp">
+
+        <EditText
+            android:id="@+id/nuser_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User Name"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/addressLayout"
+        app:layout_constraintTop_toBottomOf="@id/unameLayout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="10dp">
 
         <EditText
             android:id="@+id/address_input"
@@ -71,16 +88,33 @@
             android:hint="Address"/>
 
         </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/eLayout"
+        app:layout_constraintTop_toBottomOf="@id/addressLayout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:id="@+id/e_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"/>
+
+    </android.support.design.widget.TextInputLayout>
+
 
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:id="@+id/contact_numberLayout"
-        app:layout_constraintTop_toBottomOf="@id/addressLayout"
+        app:layout_constraintTop_toBottomOf="@id/eLayout"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_margin="20dp"
+        android:layout_margin="10dp"
         >
 
         <EditText
@@ -98,7 +132,7 @@
             app:layout_constraintTop_toBottomOf="@id/contact_numberLayout"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            android:layout_margin="20dp">
+            android:layout_margin="10dp">
 
 
             <EditText
@@ -118,7 +152,7 @@
         app:layout_constraintTop_toBottomOf="@id/storehoursLayout"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_margin="20dp">
+        android:layout_margin="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -130,7 +164,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="City"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:textSize="20dp" />
 
         <Spinner
@@ -168,7 +202,7 @@
     android:text="Submit"
     app:layout_constraintTop_toBottomOf="@id/terms"
     app:layout_constraintRight_toRightOf="parent"
-    android:layout_margin="10dp"/>
+    android:layout_margin="5dp"/>
 
 
     <Button
@@ -178,7 +212,7 @@
         android:text="Cancel"
         app:layout_constraintTop_toBottomOf="@id/submit_btn1"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_margin="10dp"/>
+        android:layout_margin="5dp"/>
 
 
 
