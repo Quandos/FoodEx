@@ -11,6 +11,8 @@ public class Seller {
     private String storeAddress;
     private String storehours;
 
+    //comment
+
     public String getFname() {
         return fname;
     }
