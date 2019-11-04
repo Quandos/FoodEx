@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class SingUp extends AppCompatActivity {
+public class SignUp extends AppCompatActivity {
 
     TextView singup_input, or_input, sinupasuser_input;
     Button singupasretailers_btn, confirm_btn;

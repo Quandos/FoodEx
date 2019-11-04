@@ -27,7 +27,7 @@
 
         </activity>
         <activity android:name=".PersonalDetailes" />
-        <activity android:name=".SingUp" />
+        <activity android:name=".SignUp" />
 
         <activity android:name=".MainActivity" />
     </application>
