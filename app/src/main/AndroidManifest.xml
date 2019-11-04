@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.foodonilineshop">
+    package="com.example.foodonlineshop">
 
     <application
         android:allowBackup="true"
@@ -26,7 +26,6 @@
         <activity android:name=".TermsAndCondition">
 
         </activity>
-        <activity android:name=".StoreDetailes" />
         <activity android:name=".PersonalDetailes" />
         <activity android:name=".SingUp" />
 
